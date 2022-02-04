@@ -1,0 +1,64 @@
+//---------------------------------------------
+//
+//  attribution-info Component
+//
+//    1. Imports
+//    2. Component
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Imports
+//---------------------------------------------
+
+@import "bootstrap-icons/font/bootstrap-icons";
+
+//---------------------------------------------
+// 2. Component
+//---------------------------------------------
+
+.chmap-attributions-container {
+  width:20px;
+  height:20px;
+  border:0px solid rgba(0, 0, 0, 0.3);
+  margin:0px 0px 5px 5px;
+  text-align:left;
+  background-color:white;
+
+  .icon {
+    @extend .bi;
+    @extend .bi-info;
+    @extend .fw-bolder;
+
+    font-size: 20px;
+    line-height: 20px;
+    position:relative;
+
+  }
+
+  .chmap-attributions {
+    display:none;
+    font-size:12px;
+    overflow:auto;
+    white-space:nowrap;
+  }
+
+  &.expand {
+     height: auto;
+     width: 70vw;
+     padding: 2px 2px 2px 4px;
+     opacity: 0.6;
+
+    .icon {
+      font-size: 15px;
+      line-height: 15px;
+      @extend .bi-x-circle;
+    }
+
+    .chmap-attributions {
+      display: block;
+      max-height: 70px;
+    }
+
+  }
+}
