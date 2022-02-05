@@ -6,14 +6,13 @@ const config = {
         index: './src/js/index.js',
     },
 
-    experiments: {
-        outputModule: true,
-    },
-
     output: {
         path: path.resolve(__dirname, "dist", "js"),
         filename: `chmap-leaflet-extensions.js`,
-        environment: { module: true },
+        library: {
+            name: "chmapLeafletExtensions",
+            type: 'umd',
+        }
     },
 
     externals: {
