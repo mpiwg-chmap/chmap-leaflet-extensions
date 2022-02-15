@@ -1,6 +1,6 @@
 {
   "name": "@chmap/leaflet-extensions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The leaflet extension components for the CHMap projects belonging to MPIWG",
   "lib-main": "lib/js/index.js",
   "main": "dist/js/chmap-leaflet-extensions.js",

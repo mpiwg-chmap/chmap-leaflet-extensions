@@ -10,7 +10,7 @@ function getOpts({layerId, mode, sUrl, corners, extraActions, editable, ...rest}
 
         if (extraActions?.loadAction) actions.push(extraActions.loadAction);
 
-        // actions.push(L.OpacityAction);
+        actions.push(L.OpacityAction);
         // actions.push(L.DragAction);
         // actions.push(L.RotateAction);
         actions.push(L.ScaleAction);
