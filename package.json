@@ -1,6 +1,6 @@
 {
   "name": "@chmap/leaflet-extensions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The leaflet extension components for the CHMap projects belonging to MPIWG",
   "lib-main": "lib/js/index.js",
   "main": "dist/js/chmap-leaflet-extensions.js",
@@ -15,7 +15,7 @@
   },
   "keywords": ["gis", "map", "leaflet"],
   "author": "calvin yeh",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "@babel/runtime": "^7.16.7",
     "@babel/runtime-corejs3": "^7.16.8",
